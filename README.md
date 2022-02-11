@@ -19,7 +19,7 @@
   - Foi usado o mysql no desenvolvimento, mas você pode instalar o que você gosta mais, bata ajustar o arquivo knexfile.js, escolher o DB de preferência, depois é só rodar as migrations que ele cria seu banco automaticamente.
 
 
-* Instalações 
+-- * Instalações * --
 
 - Frontend -
   - npm install
