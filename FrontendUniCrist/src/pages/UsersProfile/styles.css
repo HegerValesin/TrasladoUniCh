@@ -1,0 +1,126 @@
+.userprofile-container {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 32px auto;
+  box-sizing: border-box;
+}
+
+.userprofile-container header {
+  display: flex;
+  padding: 0 30px;
+  align-items: center;
+}
+
+.userprofile-container header img {
+  height: 64px;
+}
+
+.userprofile-container h1 {
+  border-color: #999;
+  padding: 18px;
+}
+
+.userprofile-container .userprofile-grid {
+  padding-left: 30px;
+}
+
+.userprofile-container .userprofile-grid .table.table-hover .td-btn {
+  padding: 0;
+}
+
+.button-grid {
+  width: 40%;
+  height: 30px;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 300;
+  margin: 3px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 30px;
+  transition: filter 0.2s;
+}
+
+.button:hover {
+  filter: brightness(90%);
+}
+
+.button-form {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 7px;
+  margin-right: 7px;
+  justify-content: space-between;
+}
+
+.btnpq {
+  width: 40%;
+  height: 30px;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 300;
+  margin: 3px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 30px;
+  transition: filter 0.2s;
+}
+
+#edit {
+  background: #367fa9;
+}
+
+#excl {
+  background: #dd4b39;
+}
+
+.table.table-hover {
+  width: 80%;
+  padding: 5px;
+}
+
+/* Modal --------*/
+
+.modal-overlay {
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.7);
+
+  position: fixed;
+  top: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  opacity: 1;
+  visibility: visible;
+  z-index: 999;
+}
+
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modals {
+  background: #f0f2f5;
+  padding: 2.4rem;
+
+  position: relative;
+  z-index: 1;
+}
+/* Form ------------------------*/
+#form {
+  max-width: 500px;
+}
+#form h1 {
+  margin-top: 0;
+}

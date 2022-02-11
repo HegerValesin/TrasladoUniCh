@@ -1,0 +1,23 @@
+{
+  "name": "backendunicrist",
+  "version": "1.0.0",
+  "description": "Sistema para Unicristhus",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "Heger Valesin",
+  "license": "ISC",
+  "dependencies": {
+    "celebrate": "^15.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "knex": "^1.0.2",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
