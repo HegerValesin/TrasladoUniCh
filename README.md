@@ -4,30 +4,30 @@
 
 - Neste repositório tem o Backend e o Frantend de um projeto desenvolvido para instituições que tem traslados entre seus estabelecimentos(veículos reservados com horários definidos de uma empresa para outra).
 
-#* Tecnologias
+# * Tecnologias
 
- #-- Frontend --
-  - ReactJS 
-  - CSS
-  - Bootstrap
+ # -- Frontend --
+    - ReactJS 
+    - CSS
+    - Bootstrap
  
- #-- Backend --
- - Express
- - knexjs - Conexão com o DB.
+ # -- Backend --
+    - Express
+    - knexjs - Conexão com o DB.
 
- #-- Mysql--
-  - Foi usado o mysql no desenvolvimento, mas você pode instalar o que você gosta mais, bata ajustar o arquivo knexfile.js, escolher o DB de preferência, depois é só rodar as migrations que ele cria seu banco automaticamente.
+ # -- Mysql--
+    - Foi usado o mysql no desenvolvimento, mas você pode instalar o que você gosta mais, bata ajustar o arquivo knexfile.js, escolher o DB de preferência, depois é só rodar as migrations que ele cria seu banco automaticamente.
 
 
-#-- * Instalações * --
+# -- * Instalações * --
 
-#- Frontend -
-  - npm install
+# - Frontend -
+    - npm install
 
-#- Backend - 
-  - npm install 
+# - Backend - 
+    - npm install 
   
-  (Se tiver problema para conectar o DB rodar o chamando npm install knex.)
+    (Se tiver problema para conectar o DB rodar o chamando npm install knex.)
   
 
 # Telas
