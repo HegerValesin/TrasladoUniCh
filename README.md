@@ -11,7 +11,7 @@
   - CSS
   - Bootstrap
  
- * Backend
+ -- Backend --
  - Express
  - knexjs - Conexão com o DB.
 
